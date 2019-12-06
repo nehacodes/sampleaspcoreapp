@@ -19,7 +19,7 @@ namespace aspnet_core_dotnet_core.Controllers
 
             return View();
         }
-
+//Added comment
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
